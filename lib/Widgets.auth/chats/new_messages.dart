@@ -13,7 +13,9 @@ class _newMessageState extends State<newMessage> {
     FocusScope.of(context).unfocus();
     var user =  FirebaseAuth.instance.currentUser;
     final data = await FirebaseFirestore.instance.collection("users").doc(user!.uid).get();
-    FirebaseFirestore.instance.collection("chat").add({
+    debugPrint("Done");
+    final snapShot = await FirebaseFirestore.instance.collection("chat").get();
+    await FirebaseFirestore.instance.collection("chat").add({
       "text":enteredMessage.trim(),
       "created_at":Timestamp.now(),
       "username":data['username'],
