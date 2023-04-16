@@ -3,7 +3,7 @@
 ## Used Firebase Services
  - Authentication: For user sign-in and sign-up.
  - Storage: For storing the user profile image.
- - Firestore: For storing messages among users.
+ - Firestore: For storing messages between users.
 
 ## Screenshots
 
