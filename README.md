@@ -1,6 +1,6 @@
 # chat
 
-##Screenshots
+## Screenshots
 
 <p align = "center"><img src = "https://user-images.githubusercontent.com/80516466/232300553-ff4f3cf7-d60c-49e7-8b09-98f9b0066413.jpg" width = "30%"/></p>
 <p align = "center"><img src = "https://user-images.githubusercontent.com/80516466/232300722-3a8d12fb-9bcf-4d2e-a6f4-0a20f255b919.jpg" width = "30%"/></p>
