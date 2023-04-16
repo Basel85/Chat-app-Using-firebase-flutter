@@ -1,5 +1,10 @@
 # chat
 
+## Used Firebase Services
+ - Authentication: For user sign-in and sign-up.
+ - Storage: For storing the user profile image.
+ - Firestore: For storing messages between two users.
+
 ## Screenshots
 
 <p align = "center"><img src = "https://user-images.githubusercontent.com/80516466/232300553-ff4f3cf7-d60c-49e7-8b09-98f9b0066413.jpg" width = "30%"/></p>
